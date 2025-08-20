@@ -1,0 +1,116 @@
+body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .login-section {
+      flex: 1;
+    }
+
+    .login-card {
+      max-width: 500px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .login-box {
+      background: #fff;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      min-height: 400px;
+      width: 100%;
+    }
+
+    .form-control {
+      border-radius: 0 !important;
+      transition: border-color 0.3s;
+    }
+
+    .form-control:hover,
+    .form-control:focus {
+      border-color: #057b88;
+      box-shadow: none;
+    }
+
+    .logo-wrapper {
+      padding-top: 2rem;
+      padding-left: 0;
+    }
+
+    .logo-wrapper img {
+      height: 65px;
+      width: 65px;
+    }
+
+    .blue-panel {
+      background-color: #005eb8;
+      color: white;
+      text-align: center;
+    }
+
+    .blue-panel a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .login-links {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .login-links a {
+      text-decoration: none;
+    }
+
+    .create-account-text {
+      font-weight: 600;
+      color: #000;
+    }
+
+    .support-text {
+      font-weight: 600;
+      color: #000;
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    footer {
+      background-color: #fff;
+      padding: 2rem 1rem;
+      color: #6c757d;
+      font-size: 0.9rem;
+      text-align: center;
+      border-top: 1px solid #ddd;
+    }
+
+    .footer-title {
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-body {
+      margin-bottom: 0.5rem;
+    }
+
+    .show-text {
+      position: absolute;
+      top: 38px;
+      right: 15px;
+      color: #007bff;
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-weight: 500;
+      font-size: 0.875rem;
+      pointer-events: none; /* non-clickable */
+    }
+
+    @media (max-width: 768px) {
+      .login-box {
+        padding: 1rem;
+      }
+    }

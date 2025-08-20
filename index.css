@@ -1,0 +1,599 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0%;
+    /* border:1px solid red; */
+}
+
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.naaaav{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.mayo{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+
+
+}
+.mayo a{
+  width:60%;
+}
+/* .ayo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+} */
+/* .ico{
+  font-size: 20px;
+} */
+
+/* Navbar main container */
+.navbar {
+  
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  padding: 12px 20px;
+  /* box-shadow:white; */
+  font-family: Arial, sans-serif;
+
+}
+
+/* Brand logo + text */
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  font-size: 12px; 
+  line-height: 1.1;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  display: block;
+  
+  margin-bottom: 5px;
+}
+
+/* Menu list */
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Menu links */
+.nav-item .nav-link {
+  position: relative;
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 1.2;
+  white-space:normal;
+  text-align: left;
+  transition: color 0.3s ease;
+}
+
+/* Dropdown arrow spacing */
+.nav-item .nav-link i {
+  font-size: 0.7rem;
+  margin-left: 4px;
+}
+
+/* Hover color */
+.nav-item .nav-link:hover {
+  color: #0056b3;
+}
+
+/* Underline animation */
+.nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #0056b3;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-item .nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Right side links + icons */
+.icon-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.icon-links .nav-link {
+  color: #000;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon-links .nav-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Icons */
+.icon-links i {
+  font-size:18px;
+  vertical-align: middle;
+}
+
+
+.sub {                                     /*navabr sub */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+
+.care1{                            
+  position: relative;
+  
+}
+.care1 a{
+  display: block;
+  text-decoration: none;
+  color: #000;
+  
+  padding: 10px 0;
+}
+.care1 a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+.nav-dropdown-img {
+  position: absolute;
+  bottom: 10px;
+  padding: 5px 0;
+  text-align: center;
+   border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  
+}
+.nav-dropdown-img h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: white;
+  font-size:16px;
+  margin: 0;
+  text-decoration: underline;
+}
+.nav-dropdown-img:hover {
+    transform: scale(1.03);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about{
+  margin-bottom: 2px;
+}
+
+#about button{
+    color: #0057b8;
+    border-radius: 50%;
+    font-size: small;
+    font-weight: bold;
+    align-items: center;
+    min-width: 45px;
+    max-width: 45px;
+    min-height: 45px;
+    max-height: 45px;
+    margin: 2px;
+    background-color: white;
+}
+.srh label{
+    font-size: 20px;
+    font-weight: 400;
+}
+.srh input{
+width: 41vw;
+height: 6vh;
+border-radius: 30px ;
+}
+#two{
+    margin-top: 1%;
+   
+    
+}
+#two h6{
+font-weight: bold;
+}
+.bod{
+ border-top: 1px solid black ;
+ padding-bottom: 1%;
+}
+.para{
+    width: 55%;
+    margin-top: 30%;
+    margin-left: 20%;
+    font-family: Georgia Ref Georgia Bold Georgia-Bold Georgia Italic Georgia-Italic;
+}
+.para button{
+    background-color: white;
+    color: #0057b8;
+    border-radius: 23px ;
+    padding:10px 20px ;
+    font-size: large;
+    border: 2px solid #0057b8;
+}
+.d-block{
+    width: 34vw;
+    height: 95vh;
+    border-radius: 10px ;
+}
+
+#home .video{
+    width:98vw;
+  object-fit: cover;
+  height: 90vh;
+  margin-bottom:50px ;
+}
+#home .index{
+    position: relative;
+    top: 60%;
+    left: 8%;
+    z-index: 5;
+}
+.Organic{
+    color: white;
+    font-weight: 300;
+    font-size: 76px;
+     font-family: Georgia Ref Georgia Bold Georgia-Bold Georgia Italic Georgia-Italic;
+     margin-bottom: 30px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding-right:30px ;
+    
+}
+.index button{
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px ;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+#about{
+    padding-bottom: 8%;
+   
+    border-radius: 1%; 
+    
+}
+#about p{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+
+#three{
+    margin-top: 5%;
+}
+#three h6{
+font-weight: bold;
+}
+
+
+.para{
+    width: 55%;
+    margin-top: 30%;
+   
+    margin-left: 20%;
+   font-family: Georgia Ref Georgia Bold Georgia-Bold Georgia Italic Georgia-Italic;
+}
+.para button{
+    background-color: white;
+    color: #0057b8;
+    border-radius: 23px ;
+    padding:10px 20px ; 
+    font-size: large;
+    border: 2px solid #0057b8;
+}
+.d-blocks{
+    width: 34vw;
+    height: 95vh;
+    border-radius: 10px ;   
+    margin-left: 20%;
+}
+#home .video{
+    width:98vw;
+  object-fit: cover;
+  height: 90vh;
+  margin-bottom:50px ;
+}
+#home .index{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    z-index: 5;
+}
+.Organic{
+    color: white;
+    font-weight: 100;
+    font-size: 60px;
+    font-family: Georgia Ref Georgia Bold Georgia-Bold Georgia Italic Georgia-Italic;
+     margin-bottom: 30px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding-right:30px ;
+    
+}
+.index button{
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px ;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+.fruit{
+    width: 100%;
+     aspect-ratio: 3/2;
+      object-fit: cover;
+      border-radius: 10px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .btn1{
+display: inline-block;
+  color: #0056b3;
+  border: 2px solid #0056b3;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 16px;
+  width: 50%;
+  height: 50px;
+  margin-top: 20px; 
+}
+.care{
+   
+}
+.care h2{
+    font-family:Georgia Ref Georgia Bold Georgia-Bold Georgia Italic Georgia-Italic ;
+    font-size: 40px;
+    font-weight: 700;
+}
+.location-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .location-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      
+    }
+    .location-info {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 15px;
+      background:rgba(0,0,0,0);
+      color:rgb(255,255,255);
+    }
+    .location-info h5 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+
+    }
+    .location-info p {
+      margin: 0;
+      font-size:20px;
+      color:white;
+      line-height: 28px;
+      font-weight: 400;
+    }
+
+.location button{
+    border-radius: 30px;
+    padding: 10px 30px 10px 20px
+}
+
+
+.care a{
+    text-decoration: none;
+    font-size: large;
+    color: #0057b8;
+    padding: 10px;
+    border-top: 1.5px solid gainsboro; 
+    width: 100%;
+}
+#discount{
+ background-color: #0d0d33;
+ color: white;
+}
+.fuel{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+.fuel h1{
+    width: 22vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fuel p{
+    width: 20vw;
+}
+.fuel button{
+    background-color:#0057b8;
+    color:white;
+    border: 2px solid #0057b8;
+    margin-top: 10%;
+    font-size:large;
+    border-radius: 30px ;
+    padding:10px 90px;
+    margin-bottom: 90px;
+} 
+.foot{
+
+}
+.foot a{
+color: white;
+margin-bottom: 25px;
+text-decoration: none;
+
+ 
+}
+.footer2{
+    padding-top: 10px;
+    background-color:#012d61;
+
+
+}
+
+.foot button{
+   margin-bottom: 25px;
+   width: 80%;
+   display: flex;
+  flex-direction: row;
+  padding: 5% 10%;
+  color: white  ;
+   
+}
+
+.line {
+    
+    border: 1px solid grey;
+    margin: 3% 0%;
+    
+}
+
+.social h2 {
+    color: white;
+    font-size: 16px;
+    margin: 25px 0px 25px 0px;
+
+}
+.social button{
+    border: 1px solid white;
+    padding: 9px;
+    border-radius: 50%;
+    font-size:medium;
+    background-color: #012d61;
+    color: white;
+    margin: 5px;
+}
+.app{
+  
+    color: white;
+    padding-top:7% ;
+    padding-left: 35%;
+    margin-bottom: 10%;
+}
+
+.term{
+   background-color: rgba(225, 240, 255, 1);
+  
+
+}
+.terms{
+    margin-top: 50px;
+ 
+}
+.terms a{
+    width: 70%;
+    text-decoration: none;
+    color: black;
+    padding:7px ;
+}
+.rights{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 0%;
+ 
+}
+.nav-item {
+  list-style: none;  /* removes the dot */
+}
